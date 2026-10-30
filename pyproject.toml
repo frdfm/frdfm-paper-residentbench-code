@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "residentbench"
+version = "0.1.0"
+description = "ResidentBench simulations and recorded-result reproduction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "AGPL-3.0-or-later" }
+authors = [
+  { name = "Fereydoun Farrahi Moghaddam" }
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["residentbench*"]

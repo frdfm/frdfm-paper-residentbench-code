@@ -1,0 +1,101 @@
+{
+  "case": "paddle",
+  "model": "z-ai/glm-5.3-flash",
+  "provider": "z-ai/fp8",
+  "reasoning": {
+    "enabled": false
+  },
+  "temperature": 1.0,
+  "max_tokens": 4096,
+  "tool_choice": "auto",
+  "history_turns": 10,
+  "description_variant": 0,
+  "seed": 20261029,
+  "version": "paddle-screen-v1",
+  "turns": 120,
+  "step_seconds": 0.25,
+  "initial_environment": {
+    "seconds": 0.0,
+    "left_y": 7.0,
+    "right_y": 7.0,
+    "motion": "stationary",
+    "ball_x": 12.0,
+    "ball_y": 7.0,
+    "vx": 10.0,
+    "vy": 6.0,
+    "score_left": 0,
+    "score_right": 0,
+    "left_hits": 0,
+    "right_hits": 0,
+    "wall_hits": 0
+  },
+  "specification": {
+    "width": 25,
+    "height": 15,
+    "paddle_height": 5,
+    "ball_horizontal_cells_per_second": 10.0,
+    "right_paddle_cells_per_second": 8.0,
+    "left_tracking_cells_per_second": 3.0,
+    "physics_step_seconds": 0.01,
+    "seed": 20261029,
+    "serve_vy_choices": [
+      -6,
+      -4,
+      4,
+      6
+    ],
+    "serve_directions": "alternate, first toward right",
+    "contact_rule": "reflect at paddle face if centre within half-height plus half cell",
+    "contact_vy_rule": "clip(vy + 0.8*offset,-6,6), minimum magnitude 2"
+  },
+  "clock": "mandatory capture-time reading",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "read_screen",
+        "description": "Returns the entire 25-column by 15-row screen as rows of characters, plus the displayed left and right point counts. Rows run top to bottom and columns left to right. '.' is empty, '-' is a horizontal boundary, 'B' is a square ball, and 'L' and 'R' are vertical paddles. The left paddle moves automatically; the right paddle is controlled by set_right_paddle. The ball moves and reflects from boundaries and paddles; passing a paddle's outer edge adds a point to the other side and resets the ball near the centre.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "set_right_paddle",
+        "description": "Sets the right paddle's vertical motion to up, down or stationary. Motion persists between calls, stops at the screen limits, and changes only the right paddle. Returns the selected motion. Screen contents are available through read_screen.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "direction": {
+              "type": "string",
+              "enum": [
+                "up",
+                "down",
+                "stationary"
+              ]
+            }
+          },
+          "required": [
+            "direction"
+          ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "read_time",
+        "description": "Returns elapsed time in seconds at the instant of this call. A reading is included with every completed output batch. Time advances 0.25 seconds between decisions and does not advance between calls within a turn. Each batch is timestamped when outputs are captured, before time advances.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "trials": [
+    {
+      "folder": "code\\runs\\20261029T062927369967Z-thermostat-v3",
+      "scenario": "thermostat",
+      "completed_intervals": 36,
+      "status": "completed",
+      "reasoning_requested": {
+        "enabled": false
+      },
+      "reported_reasoning_tokens": 0,
+      "cost_usd": 0.004640912,
+      "source_revision": "52662b4",
+      "contextual_judge": "interactive OpenAI Codex assistant; retrospective, model identity visible; no separate judge API call",
+      "judgment": "Success",
+      "judgment_reason": "Repeated temperature observations and heater adjustments restore warmth and regulate cooling/heating.",
+      "terminal_celsius": 21.672987184201315
+    },
+    {
+      "folder": "code\\runs\\20261029T062939021239Z-traffic-v2",
+      "scenario": "traffic",
+      "completed_intervals": 60,
+      "status": "completed",
+      "reasoning_requested": {
+        "enabled": false
+      },
+      "reported_reasoning_tokens": 0,
+      "cost_usd": 0.012666828,
+      "source_revision": "52662b4",
+      "contextual_judge": "interactive OpenAI Codex assistant; retrospective, model identity visible; no separate judge API call",
+      "judgment": "Fail",
+      "judgment_reason": "Conflicting crossing permissions persist, with collisions, neglected approaches and sustained queue accumulation.",
+      "departures": 12,
+      "collisions": 3,
+      "terminal_queues": {
+        "north": 24,
+        "south": 20,
+        "east": 36,
+        "west": 34
+      }
+    }
+  ],
+  "total_cost_usd": 0.01730774,
+  "offline_replay": "all model-visible messages and tool effects match; physics within floating-point tolerance",
+  "maximum_absolute_numeric_difference": 7.275957614183426e-12,
+  "physics_samples": 660
+}

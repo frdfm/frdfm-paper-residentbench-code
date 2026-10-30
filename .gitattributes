@@ -1,0 +1,6 @@
+# Original experiment bytes are hashed; never normalize their line endings.
+experiments/** -text -whitespace
+evaluations/** -text -whitespace
+*.pdf binary
+*.png binary
+*.svg -whitespace

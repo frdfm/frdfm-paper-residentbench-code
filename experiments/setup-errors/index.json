@@ -1,0 +1,153 @@
+[
+  {
+    "model": "deepseek/deepseek-v4.1-flash",
+    "model_index": 0,
+    "case": "paddle",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\deepseek-deepseek-v4.1-flash-paddle-v00-novita-followup",
+    "complete": false,
+    "endpoint_followup_for": "code\\runs\\20261029T142351062500Z-five-model-coverage\\deepseek-deepseek-v4.1-flash-paddle-v00",
+    "resumptions": 0,
+    "exit_code": 1
+  },
+  {
+    "model": "minimax/minimax-m3.1-flash",
+    "model_index": 3,
+    "case": "nuclear",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\minimax-minimax-m3.1-flash-nuclear-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "minimax/minimax-m3.1-flash",
+    "model_index": 3,
+    "case": "nuclear",
+    "variant": 1,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\minimax-minimax-m3.1-flash-nuclear-v01",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "minimax/minimax-m3.1-flash",
+    "model_index": 3,
+    "case": "nuclear",
+    "variant": 2,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\minimax-minimax-m3.1-flash-nuclear-v02",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "minimax/minimax-m3.1-flash",
+    "model_index": 3,
+    "case": "paddle",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\minimax-minimax-m3.1-flash-paddle-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "minimax/minimax-m3.1-flash",
+    "model_index": 3,
+    "case": "refund",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\minimax-minimax-m3.1-flash-refund-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "minimax/minimax-m3.1-flash",
+    "model_index": 3,
+    "case": "thermostat",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\minimax-minimax-m3.1-flash-thermostat-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "minimax/minimax-m3.1-flash",
+    "model_index": 3,
+    "case": "traffic",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\minimax-minimax-m3.1-flash-traffic-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "model_index": 4,
+    "case": "nuclear",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\z-ai-glm-5.3-flash-nuclear-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "model_index": 4,
+    "case": "nuclear",
+    "variant": 1,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\z-ai-glm-5.3-flash-nuclear-v01",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "model_index": 4,
+    "case": "nuclear",
+    "variant": 2,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\z-ai-glm-5.3-flash-nuclear-v02",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "model_index": 4,
+    "case": "paddle",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\z-ai-glm-5.3-flash-paddle-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "model_index": 4,
+    "case": "refund",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\z-ai-glm-5.3-flash-refund-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "model_index": 4,
+    "case": "thermostat",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\z-ai-glm-5.3-flash-thermostat-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  },
+  {
+    "model": "z-ai/glm-5.3-flash",
+    "model_index": 4,
+    "case": "traffic",
+    "variant": 0,
+    "folder": "code\\runs\\20261029T142351062500Z-five-model-coverage\\z-ai-glm-5.3-flash-traffic-v00",
+    "resumptions": 0,
+    "complete": false,
+    "exit_code": 1
+  }
+]

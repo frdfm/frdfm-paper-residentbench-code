@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+*.env
+*.key
+key/*
+!key/.gitkeep
+!key/README.md
+reruns/
+build/
+dist/
+.checkout-check-*/
+.build-temp/
+.idea/
+runs/*
