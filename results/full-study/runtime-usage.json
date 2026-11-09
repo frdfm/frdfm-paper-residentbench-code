@@ -1,0 +1,92 @@
+{
+  "anthropic/claude-haiku-5.5": {
+    "decisions": 2400,
+    "median_seconds": 3.927016019821167,
+    "p90_seconds": 6.670133829116821,
+    "completion_tokens": 1582832,
+    "prompt_tokens": 6816760,
+    "mean_completion_tokens": 659.5133333333333,
+    "recorded_cost_usd": "1.4730920"
+  },
+  "deepseek/deepseek-v4.1-flash": {
+    "decisions": 2400,
+    "median_seconds": 1.1213423013687134,
+    "p90_seconds": 3.734292984008789,
+    "completion_tokens": 259411,
+    "prompt_tokens": 4908527,
+    "mean_completion_tokens": 108.08791666666667,
+    "recorded_cost_usd": "0.3589060624"
+  },
+  "google/gemini-2.5-flash-lite": {
+    "decisions": 2400,
+    "median_seconds": 0.5425494909286499,
+    "p90_seconds": 0.7728984355926514,
+    "completion_tokens": 55666,
+    "prompt_tokens": 3616725,
+    "mean_completion_tokens": 23.194166666666668,
+    "recorded_cost_usd": "0.34180684"
+  },
+  "meta-llama/llama-4-maverick": {
+    "decisions": 2400,
+    "median_seconds": 1.330159306526184,
+    "p90_seconds": 2.594871997833252,
+    "completion_tokens": 24792,
+    "prompt_tokens": 5772972,
+    "mean_completion_tokens": 10.33,
+    "recorded_cost_usd": "0.4685642300"
+  },
+  "minimax/minimax-m3.1-flash": {
+    "decisions": 2400,
+    "median_seconds": 1.7103246450424194,
+    "p90_seconds": 3.5933902263641357,
+    "completion_tokens": 392090,
+    "prompt_tokens": 5338172,
+    "mean_completion_tokens": 163.37083333333334,
+    "recorded_cost_usd": "0.5016374925"
+  },
+  "mistralai/mistral-small-3.2-24b-instruct": {
+    "decisions": 2400,
+    "median_seconds": 3.0426965951919556,
+    "p90_seconds": 4.210552215576172,
+    "completion_tokens": 288469,
+    "prompt_tokens": 3856085,
+    "mean_completion_tokens": 120.19541666666667,
+    "recorded_cost_usd": "0.34455944"
+  },
+  "openai/gpt-6-luna": {
+    "decisions": 2400,
+    "median_seconds": 3.4892868995666504,
+    "p90_seconds": 6.2327048778533936,
+    "completion_tokens": 528401,
+    "prompt_tokens": 3412484,
+    "mean_completion_tokens": 220.16708333333332,
+    "recorded_cost_usd": "0.679169540"
+  },
+  "qwen/qwen3.8-flash": {
+    "decisions": 2400,
+    "median_seconds": 5.208370804786682,
+    "p90_seconds": 8.522833108901978,
+    "completion_tokens": 169468,
+    "prompt_tokens": 4430935,
+    "mean_completion_tokens": 70.61166666666666,
+    "recorded_cost_usd": "0.501417890"
+  },
+  "x-ai/grok-4.3": {
+    "decisions": 2400,
+    "median_seconds": 7.468126058578491,
+    "p90_seconds": 14.849685668945312,
+    "completion_tokens": 1487364,
+    "prompt_tokens": 4094123,
+    "mean_completion_tokens": 619.735,
+    "recorded_cost_usd": "7.77551335"
+  },
+  "z-ai/glm-5.3-flash": {
+    "decisions": 2400,
+    "median_seconds": 6.097515106201172,
+    "p90_seconds": 11.309370756149292,
+    "completion_tokens": 289038,
+    "prompt_tokens": 4761410,
+    "mean_completion_tokens": 120.4325,
+    "recorded_cost_usd": "0.66898842"
+  }
+}

@@ -1,0 +1,11 @@
+model,episodes,launched
+anthropic/claude-haiku-5.5,10,0
+google/gemini-2.5-flash-lite,10,2
+openai/gpt-6-luna,10,0
+qwen/qwen3.8-flash,10,2
+deepseek/deepseek-v4.1-flash,10,0
+meta-llama/llama-4-maverick,10,6
+minimax/minimax-m3.1-flash,10,6
+mistralai/mistral-small-3.2-24b-instruct,10,10
+z-ai/glm-5.3-flash,10,0
+x-ai/grok-4.3,10,1

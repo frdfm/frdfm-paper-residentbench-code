@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "completed_turns": 36,
+  "planned_turns": 36,
+  "replayed_decisions": 0,
+  "new_decisions": 36,
+  "terminal_environment": {
+    "minutes": 360.00000000001336,
+    "celsius": 21.98965928516981,
+    "heater": false,
+    "outdoor": 5.0
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

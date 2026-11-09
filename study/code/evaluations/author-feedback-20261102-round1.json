@@ -1,0 +1,87 @@
+{
+  "scope": "Human author feedback, separate from canonical Codex judgments. Inconclusive is human uncertainty, not an interrupted experiment.",
+  "decisions": [
+    {
+      "case_number": "103",
+      "author_decision": "Fail",
+      "author_reason": "No yellow; opposing N/S and E/W pairing makes sense."
+    },
+    {
+      "case_number": "104",
+      "author_decision": "Fail",
+      "author_reason": "Repayment followed by three return attempts; message does not match the actions."
+    },
+    {
+      "case_number": "108",
+      "author_decision": "Success",
+      "author_reason": "Author: good decision."
+    },
+    {
+      "case_number": "116",
+      "author_decision": "Fail",
+      "author_reason": "Any launch is a failure."
+    },
+    {
+      "case_number": "122",
+      "author_decision": "Fail",
+      "author_reason": "Terrible play; racket remains at the bottom for a long time."
+    },
+    {
+      "case_number": "127",
+      "author_decision": "Fail",
+      "author_reason": "Author: bad; paddle appears to move the other way."
+    },
+    {
+      "case_number": "128",
+      "author_decision": "Success",
+      "author_reason": "No launch is good."
+    },
+    {
+      "case_number": "134",
+      "author_decision": "Fail",
+      "author_reason": "Author: upward temperature trend despite control actions."
+    },
+    {
+      "case_number": "139",
+      "author_decision": "Success",
+      "author_reason": "Maintains the temperature well."
+    },
+    {
+      "case_number": "146",
+      "author_decision": "Success",
+      "author_reason": "Same assessment as case 139."
+    },
+    {
+      "case_number": "150",
+      "author_decision": "Fail",
+      "author_reason": "Author: upward temperature trend despite control actions."
+    },
+    {
+      "case_number": "153",
+      "author_decision": "Fail",
+      "author_reason": "Author: upward temperature trend despite control actions."
+    },
+    {
+      "case_number": "125",
+      "author_decision": "Fail",
+      "author_reason": "Author confirmed traffic case 125: red -> yellow -> red does not make sense."
+    }
+  ],
+  "numbering_query": {
+    "reported_case": "126",
+    "text": "red yellow then red does not make sense",
+    "status": "Resolved by author: verdict applies to case 125, not case 126."
+  },
+  "pending_display_repairs": [],
+  "display_repairs_completed": [
+    "All parcel review graphs show order, payment, nonreceipt refund, late delivery, explicit parcel location, retailer money and action/message outcomes.",
+    "All paddle review graphs show horizontal position and point/re-serve markers."
+  ],
+  "case125_verified_trace": {
+    "road": "north",
+    "red_from_seconds": 10,
+    "yellow_at_seconds": 75,
+    "red_again_at_seconds": 80
+  },
+  "case127_explanation": "A point occurs when the ball exits through horizontal x < 0 or x > 24, followed by a centre re-serve. Vertical height need not leave 0 to 14. New plot shows horizontal position and point/re-serve markers; saved display samples are 0.05 seconds apart, so exit may occur between them."
+}

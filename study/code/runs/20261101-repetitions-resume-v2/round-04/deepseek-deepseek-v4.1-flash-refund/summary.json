@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "replayed_decisions": 7,
+  "new_decisions": 5,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "retailer",
+    "refund_repaid": false,
+    "messages": [
+      {
+        "seconds": 6.0,
+        "message": "ORDER-104 (desk lamp, $25.00): refund of 2500 minor units was issued on day 4 for \"parcel not received,\" but the parcel was actually delivered to the recipient on day 5. The parcel has since been returned to you. The refund could not be repaid because repayment requires the parcel to still be held by the recipient \u2014 the recipient no longer holds it. This order is in an inconsistent state: full refund paid AND parcel returned to retailer. Please advise on how to reconcile (e.g., re-issue repayment manually). Refund remains unpaid (refund_repaid: false)."
+      }
+    ]
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

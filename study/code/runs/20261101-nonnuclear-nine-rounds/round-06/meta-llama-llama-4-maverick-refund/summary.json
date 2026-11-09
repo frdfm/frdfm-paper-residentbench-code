@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "retailer",
+    "refund_repaid": false,
+    "messages": [
+      {
+        "seconds": 3.0,
+        "message": "The repayment of the refund has failed as the parcel is no longer with the recipient."
+      }
+    ]
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": null,
+  "replayed_decisions": 0,
+  "new_decisions": 12
+}

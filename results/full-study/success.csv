@@ -1,0 +1,11 @@
+model,thermostat,traffic,nuclear,paddle,refund
+anthropic/claude-haiku-5.5,0,0,10,10,0
+deepseek/deepseek-v4.1-flash,9,0,10,9,2
+google/gemini-2.5-flash-lite,2,0,8,9,3
+meta-llama/llama-4-maverick,0,0,4,0,5
+minimax/minimax-m3.1-flash,10,0,4,10,6
+mistralai/mistral-small-3.2-24b-instruct,3,0,0,10,4
+openai/gpt-6-luna,10,6,10,10,10
+qwen/qwen3.8-flash,10,0,8,10,7
+x-ai/grok-4.3,10,0,9,10,8
+z-ai/glm-5.3-flash,10,1,10,10,8

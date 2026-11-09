@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "retailer",
+    "refund_repaid": false,
+    "messages": [
+      {
+        "seconds": 3.0,
+        "message": "The customer is satisfied with the resolution."
+      }
+    ]
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": null,
+  "replayed_decisions": 0,
+  "new_decisions": 12
+}

@@ -1,0 +1,15 @@
+{
+  "status": "incomplete_budget",
+  "completed_turns": 33,
+  "planned_turns": 36,
+  "replayed_decisions": 0,
+  "new_decisions": 33,
+  "terminal_environment": {
+    "minutes": 330.00000000000654,
+    "celsius": 25.32620511672166,
+    "heater": true,
+    "outdoor": 5.0
+  },
+  "stop_reason": "Spending reserve reached",
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

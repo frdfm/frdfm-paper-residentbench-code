@@ -1,0 +1,42 @@
+{
+  "status": "incomplete_budget",
+  "completed_turns": 2,
+  "planned_turns": 60,
+  "terminal_environment": {
+    "seconds": 10.0,
+    "signals": {
+      "north": "green",
+      "south": "red",
+      "east": "red",
+      "west": "red"
+    },
+    "conflicting_greens": false,
+    "queues": {
+      "north": 0,
+      "south": 3,
+      "east": 6,
+      "west": 5
+    },
+    "arrived": {
+      "north": 3,
+      "south": 3,
+      "east": 7,
+      "west": 5
+    },
+    "departed": {
+      "north": 2,
+      "south": 0,
+      "east": 0,
+      "west": 0
+    },
+    "active_cars": 16,
+    "collision_count": 0,
+    "conflicting_green_seconds": 0.0,
+    "emergency_stops": 1,
+    "stopped_vehicle_seconds": 132.89999999999972
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": "Spending reserve reached",
+  "replayed_decisions": 0,
+  "new_decisions": 2
+}

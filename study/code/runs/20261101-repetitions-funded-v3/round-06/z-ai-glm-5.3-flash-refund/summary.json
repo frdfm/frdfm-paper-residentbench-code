@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "replayed_decisions": 0,
+  "new_decisions": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 3.0,
+        "message": "ORDER-104: The refunded amount (2500 USD) has been repaid. The desk lamp parcel is still at the recipient and needs to be returned to the retailer. Please arrange collection or provide a return label; an earlier return attempt returned a system error (\"refund has already been repaid\") even though repayment was correctly completed."
+      },
+      {
+        "seconds": 7.0,
+        "message": "ORDER-104 final status: Refund of 2500 USD has been repaid to the retailer (confirmed refund_repaid: true). The desk lamp parcel remains with the recipient. The return_parcel system persistently errors with \"refund has already been repaid\" and cannot complete the transfer. The retailer must arrange parcel collection or a return label directly. No further automated attempts will be made on our side."
+      }
+    ]
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

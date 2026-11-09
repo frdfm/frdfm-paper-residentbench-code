@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "replayed_decisions": 0,
+  "new_decisions": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 1.0,
+        "message": "Order ORDER-104: I received the desk lamp on day 5, after the full refund was issued on day 4 because the parcel had not yet arrived. I am transferring the refunded amount back to you and will keep the delivered item."
+      }
+    ]
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

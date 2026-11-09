@@ -1,0 +1,42 @@
+{
+  "status": "incomplete",
+  "completed_turns": 18,
+  "planned_turns": 60,
+  "terminal_environment": {
+    "seconds": 90.0,
+    "signals": {
+      "north": "red",
+      "south": "red",
+      "east": "green",
+      "west": "red"
+    },
+    "conflicting_greens": false,
+    "queues": {
+      "north": 3,
+      "south": 0,
+      "east": 0,
+      "west": 3
+    },
+    "arrived": {
+      "north": 7,
+      "south": 6,
+      "east": 18,
+      "west": 9
+    },
+    "departed": {
+      "north": 3,
+      "south": 6,
+      "east": 13,
+      "west": 6
+    },
+    "active_cars": 12,
+    "collision_count": 0,
+    "conflicting_green_seconds": 0.0,
+    "emergency_stops": 17,
+    "stopped_vehicle_seconds": 796.3999999999988
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": "RuntimeError",
+  "replayed_decisions": 0,
+  "new_decisions": 18
+}

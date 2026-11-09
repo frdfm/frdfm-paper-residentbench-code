@@ -1,0 +1,31 @@
+{
+  "episodes": 500,
+  "decisions": 24000,
+  "human_reviewed": 14,
+  "Success": 285,
+  "Fail": 215,
+  "offline_replay": false,
+  "scenario_counts": {
+    "nuclear": {
+      "Success": 73,
+      "Fail": 27
+    },
+    "paddle": {
+      "Success": 88,
+      "Fail": 12
+    },
+    "refund": {
+      "Success": 53,
+      "Fail": 47
+    },
+    "thermostat": {
+      "Success": 64,
+      "Fail": 36
+    },
+    "traffic": {
+      "Fail": 93,
+      "Success": 7
+    }
+  },
+  "assessment_scope": "Retrospective contextual Codex assessment of all 500 episodes, followed by the designer-clarified yellow-phase reassessment of all 100 traffic episodes and exact author verdicts on 14 selected episodes. Model names were masked in the author graph packet; prior assisted material was available. No representative independent agreement estimate. Human verdicts apply only to the reviewed episodes; no numerical thermostat or paddle threshold or full-scenario relabeling is inferred from them."
+}

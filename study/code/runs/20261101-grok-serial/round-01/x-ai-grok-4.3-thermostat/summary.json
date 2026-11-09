@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "completed_turns": 36,
+  "planned_turns": 36,
+  "terminal_environment": {
+    "minutes": 360.00000000001336,
+    "celsius": 21.219569145301367,
+    "heater": false,
+    "outdoor": 5.0
+  },
+  "stop_reason": null,
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail."
+}

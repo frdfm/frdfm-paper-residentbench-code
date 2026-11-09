@@ -1,0 +1,24 @@
+{
+  "status": "incomplete_budget",
+  "completed_turns": 10,
+  "planned_turns": 120,
+  "replayed_decisions": 0,
+  "new_decisions": 10,
+  "terminal_environment": {
+    "seconds": 2.499999999999999,
+    "left_y": 7.210000000000002,
+    "right_y": 6.9999999999999964,
+    "motion": "up",
+    "ball_x": 12.899999999999997,
+    "ball_y": 7.36,
+    "vx": 10.0,
+    "vy": 4.0,
+    "score_left": 1,
+    "score_right": 1,
+    "left_hits": 0,
+    "right_hits": 0,
+    "wall_hits": 1
+  },
+  "stop_reason": "Shared budget stop or author stop file",
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

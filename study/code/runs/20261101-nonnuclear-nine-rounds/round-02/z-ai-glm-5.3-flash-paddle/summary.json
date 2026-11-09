@@ -1,0 +1,24 @@
+{
+  "status": "incomplete_budget",
+  "completed_turns": 37,
+  "planned_turns": 120,
+  "terminal_environment": {
+    "seconds": 9.249999999999996,
+    "left_y": 3.588239999999986,
+    "right_y": 3,
+    "motion": "up",
+    "ball_x": 12.499999999999943,
+    "ball_y": 3.9654399999999868,
+    "vx": 10.0,
+    "vy": 4.735999999999994,
+    "score_left": 0,
+    "score_right": 1,
+    "left_hits": 2,
+    "right_hits": 2,
+    "wall_hits": 4
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": "Spending reserve reached",
+  "replayed_decisions": 0,
+  "new_decisions": 37
+}

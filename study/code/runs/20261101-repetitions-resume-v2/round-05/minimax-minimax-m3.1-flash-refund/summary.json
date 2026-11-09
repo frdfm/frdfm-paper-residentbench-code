@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "replayed_decisions": 0,
+  "new_decisions": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 4.0,
+        "message": "Order ORDER-104 (desk lamp): the parcel was delivered to the recipient on day 5 after a refund was issued on day 4, and I have repaid the refund of USD 25.00. The item is still with the recipient; please advise on how to return it."
+      },
+      {
+        "seconds": 7.0,
+        "message": "Order ORDER-104 (desk lamp): I attempted the physical return of the parcel (currently with the recipient) but it is blocked because the USD 25.00 refund issued on day 4 has already been repaid. Please advise on how the item should be returned given the refund has been settled."
+      }
+    ]
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

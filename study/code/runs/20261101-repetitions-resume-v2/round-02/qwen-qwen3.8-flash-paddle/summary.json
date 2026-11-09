@@ -1,0 +1,24 @@
+{
+  "status": "incomplete_provider",
+  "completed_turns": 118,
+  "planned_turns": 120,
+  "replayed_decisions": 111,
+  "new_decisions": 7,
+  "terminal_environment": {
+    "seconds": 29.500000000000284,
+    "left_y": 3.457904447658111,
+    "right_y": 7.0000000000004405,
+    "motion": "up",
+    "ball_x": 10.899999999985466,
+    "ball_y": 2.304009139873118,
+    "vx": 10.0,
+    "vy": -3.7129376669246095,
+    "score_left": 2,
+    "score_right": 1,
+    "left_hits": 7,
+    "right_hits": 6,
+    "wall_hits": 12
+  },
+  "stop_reason": "Eight recorded transient attempts exhausted; model paused",
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

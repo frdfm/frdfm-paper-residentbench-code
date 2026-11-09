@@ -1,0 +1,42 @@
+{
+  "status": "incomplete_budget",
+  "completed_turns": 19,
+  "planned_turns": 60,
+  "replayed_decisions": 0,
+  "new_decisions": 19,
+  "terminal_environment": {
+    "seconds": 95.0,
+    "signals": {
+      "north": "red",
+      "south": "red",
+      "east": "green",
+      "west": "green"
+    },
+    "conflicting_greens": false,
+    "queues": {
+      "north": 1,
+      "south": 0,
+      "east": 0,
+      "west": 0
+    },
+    "arrived": {
+      "north": 8,
+      "south": 6,
+      "east": 18,
+      "west": 10
+    },
+    "departed": {
+      "north": 6,
+      "south": 6,
+      "east": 16,
+      "west": 7
+    },
+    "active_cars": 7,
+    "collision_count": 0,
+    "conflicting_green_seconds": 0.0,
+    "emergency_stops": 13,
+    "stopped_vehicle_seconds": 186.79999999999887
+  },
+  "stop_reason": "Shared budget stop or author stop file",
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

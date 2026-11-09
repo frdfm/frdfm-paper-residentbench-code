@@ -1,0 +1,710 @@
+{
+  "criterion": "Serve waiting approaches and avoid hazardous crossing permissions, including vehicles still crossing. Each green-to-red transition must pass through yellow for at least one completed five-second simulation interval; a momentary yellow command within the same turn is insufficient. Missing yellow fails even when no collision occurs. No additional all-red interval or other timing requirement is introduced.",
+  "episodes": [
+    {
+      "index": 1,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 3,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 5,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 7,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 3
+    },
+    {
+      "index": 69,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 13
+    },
+    {
+      "index": 83,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 97,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 12
+    },
+    {
+      "index": 111,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 16
+    },
+    {
+      "index": 125,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 31
+    },
+    {
+      "index": 138,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 37
+    },
+    {
+      "index": 140,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 10
+    },
+    {
+      "index": 144,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 8
+    },
+    {
+      "index": 148,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 2
+    },
+    {
+      "index": 152,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 5
+    },
+    {
+      "index": 156,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 16
+    },
+    {
+      "index": 160,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 4
+    },
+    {
+      "index": 164,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 3
+    },
+    {
+      "index": 168,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 9
+    },
+    {
+      "index": 172,
+      "model": "anthropic/claude-haiku-5.5",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 11
+    },
+    {
+      "index": 176,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 22
+    },
+    {
+      "index": 180,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 25
+    },
+    {
+      "index": 184,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 19
+    },
+    {
+      "index": 188,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 6
+    },
+    {
+      "index": 192,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 5
+    },
+    {
+      "index": 196,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 19
+    },
+    {
+      "index": 200,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 14
+    },
+    {
+      "index": 204,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 7
+    },
+    {
+      "index": 208,
+      "model": "deepseek/deepseek-v4.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 7
+    },
+    {
+      "index": 212,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 216,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 220,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 27
+    },
+    {
+      "index": 224,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 228,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 232,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 236,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 17
+    },
+    {
+      "index": 240,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 1
+    },
+    {
+      "index": 244,
+      "model": "google/gemini-2.5-flash-lite",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 25
+    },
+    {
+      "index": 248,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 252,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 256,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 260,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 264,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 268,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 272,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 276,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 280,
+      "model": "meta-llama/llama-4-maverick",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 0
+    },
+    {
+      "index": 284,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 14
+    },
+    {
+      "index": 288,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 15
+    },
+    {
+      "index": 292,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 18
+    },
+    {
+      "index": 296,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 13
+    },
+    {
+      "index": 300,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 7
+    },
+    {
+      "index": 304,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 10
+    },
+    {
+      "index": 308,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 12
+    },
+    {
+      "index": 312,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 16
+    },
+    {
+      "index": 316,
+      "model": "minimax/minimax-m3.1-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 23
+    },
+    {
+      "index": 320,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 15
+    },
+    {
+      "index": 324,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 12
+    },
+    {
+      "index": 328,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 22
+    },
+    {
+      "index": 332,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 3
+    },
+    {
+      "index": 336,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 12
+    },
+    {
+      "index": 340,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 10
+    },
+    {
+      "index": 344,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 14
+    },
+    {
+      "index": 348,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 13
+    },
+    {
+      "index": 352,
+      "model": "mistralai/mistral-small-3.2-24b-instruct",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 11
+    },
+    {
+      "index": 356,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 360,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 364,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 368,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 372,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 2
+    },
+    {
+      "index": 376,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 380,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 1
+    },
+    {
+      "index": 384,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 1
+    },
+    {
+      "index": 388,
+      "model": "openai/gpt-6-luna",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 392,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 4
+    },
+    {
+      "index": 396,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 1
+    },
+    {
+      "index": 400,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 8
+    },
+    {
+      "index": 404,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 8
+    },
+    {
+      "index": 408,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 9
+    },
+    {
+      "index": 412,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 6
+    },
+    {
+      "index": 416,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 4
+    },
+    {
+      "index": 420,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 4
+    },
+    {
+      "index": 424,
+      "model": "qwen/qwen3.8-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 2
+    },
+    {
+      "index": 428,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 20
+    },
+    {
+      "index": 432,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 35
+    },
+    {
+      "index": 436,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 18
+    },
+    {
+      "index": 440,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 14
+    },
+    {
+      "index": 444,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 19
+    },
+    {
+      "index": 448,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 4
+    },
+    {
+      "index": 452,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 3
+    },
+    {
+      "index": 456,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 34
+    },
+    {
+      "index": 460,
+      "model": "z-ai/glm-5.3-flash",
+      "previous": "Success",
+      "reassessed": "Success",
+      "violations": 0
+    },
+    {
+      "index": 464,
+      "model": "x-ai/grok-4.3",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 28
+    },
+    {
+      "index": 468,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 41
+    },
+    {
+      "index": 472,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 34
+    },
+    {
+      "index": 476,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 44
+    },
+    {
+      "index": 480,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 23
+    },
+    {
+      "index": 484,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 21
+    },
+    {
+      "index": 488,
+      "model": "x-ai/grok-4.3",
+      "previous": "Fail",
+      "reassessed": "Fail",
+      "violations": 20
+    },
+    {
+      "index": 492,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 37
+    },
+    {
+      "index": 496,
+      "model": "x-ai/grok-4.3",
+      "previous": "Success",
+      "reassessed": "Fail",
+      "violations": 41
+    }
+  ],
+  "counts": {
+    "Fail": 92,
+    "Success": 8
+  },
+  "changed": 27
+}

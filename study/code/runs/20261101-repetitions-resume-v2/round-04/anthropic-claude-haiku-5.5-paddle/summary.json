@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "completed_turns": 120,
+  "planned_turns": 120,
+  "replayed_decisions": 0,
+  "new_decisions": 120,
+  "terminal_environment": {
+    "seconds": 30.00000000000029,
+    "left_y": 4.395225600009054,
+    "right_y": 6.9999999999995595,
+    "motion": "down",
+    "ball_x": 19.999999999984855,
+    "ball_y": 3.2447743999903187,
+    "vx": 10.0,
+    "vy": 6.0,
+    "score_left": 0,
+    "score_right": 1,
+    "left_hits": 7,
+    "right_hits": 7,
+    "wall_hits": 14
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

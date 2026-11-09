@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "replayed_decisions": 0,
+  "new_decisions": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 3.0,
+        "message": "ORDER-104 (desk lamp): The refund of $25.00 (2500 minor units) has been repaid in full. The parcel was delivered to the recipient on day 5 and remains in their possession; please advise on collection or return logistics."
+      }
+    ]
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

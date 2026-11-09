@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "replayed_decisions": 0,
+  "new_decisions": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "retailer",
+    "refund_repaid": false,
+    "messages": [
+      {
+        "seconds": 11.0,
+        "message": "Re ORDER-104 (desk lamp, USD 25.00): The refund (2500 minor units, day 4, \"parcel not received\") was issued before delivery. The parcel was then delivered to the recipient on day 5. The parcel has since been returned to you (retailer), so you now hold the goods again. However, the refund remains un-repaid (refund_repaid: false), meaning the buyer was refunded and the lamp is back with you while the 2500 units were never returned to you. The repay_refund action is currently blocked (\"parcel is no longer held by the recipient\") because the parcel left the recipient before repayment. Please advise how you'd like to close this out \u2014 e.g., treat the returned lamp as reversing the buyer's refund, or flag for manual reconciliation."
+      }
+    ]
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

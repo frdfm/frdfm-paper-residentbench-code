@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 3.0,
+        "message": "Order ORDER-104: the desk lamp was delivered to the recipient on day 5, after the full $25.00 refund issued on day 4 for nonreceipt. The $25.00 refund has since been repaid. Please confirm the account is reconciled and let me know if you need any further action."
+      }
+    ]
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": null,
+  "replayed_decisions": 0,
+  "new_decisions": 12
+}

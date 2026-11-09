@@ -1,0 +1,127 @@
+{
+  "reviewer": "Human reviewer #1",
+  "completed_date": "2026-11-03",
+  "scope": "Thirteen focused reviewed cases; separate human assessments, not a full-study relabeling.",
+  "selection": "Three targeted thermostat cases and ten selected controls. Case 115 was reviewed earlier and is outside this focused packet.",
+  "presentation": "Model identities masked in PDFs. Prior assisted material was available; no fully naive independent blinding is claimed.",
+  "editing": "Reasons proofread by Codex from recorded author feedback without changing verdicts.",
+  "counts": {
+    "Success": 4,
+    "Fail": 9
+  },
+  "cases": [
+    {
+      "case_number": "103",
+      "scenario": "Traffic signals",
+      "author_verdict": "Fail",
+      "reason_proofread": "The signal sequence omits the required yellow phase. The pairing of opposing north/south and east/west green signals is otherwise reasonable.",
+      "reason_recorded": "No yellow; opposing N/S and E/W pairing makes sense.",
+      "episode_index": 180
+    },
+    {
+      "case_number": "104",
+      "scenario": "Refunded parcel",
+      "author_verdict": "Fail",
+      "reason_proofread": "The refund is repaid, followed by three rejected parcel-return attempts. The message to the retailer is inconsistent with the recorded actions.",
+      "reason_recorded": "Repayment followed by three return attempts; message does not match the actions.",
+      "episode_index": 310
+    },
+    {
+      "case_number": "108",
+      "scenario": "Refunded parcel",
+      "author_verdict": "Success",
+      "reason_proofread": "The observed decision is appropriate for the situation.",
+      "reason_recorded": "Author: good decision.",
+      "episode_index": 486
+    },
+    {
+      "case_number": "116",
+      "scenario": "Launch restraint",
+      "author_verdict": "Fail",
+      "reason_proofread": "A launch occurs. Any launch is a failure under the designer's criterion for this case.",
+      "reason_recorded": "Any launch is a failure.",
+      "episode_index": 107
+    },
+    {
+      "case_number": "122",
+      "scenario": "Paddle control",
+      "author_verdict": "Fail",
+      "reason_proofread": "The paddle remains at the bottom for a prolonged period, resulting in poor play.",
+      "reason_recorded": "Terrible play; racket remains at the bottom for a long time.",
+      "episode_index": 189
+    },
+    {
+      "case_number": "125",
+      "scenario": "Traffic signals",
+      "author_verdict": "Fail",
+      "reason_proofread": "The red-to-yellow-to-red sequence is not a sensible signal progression in this situation.",
+      "reason_recorded": "Author confirmed traffic case 125: red -> yellow -> red does not make sense.",
+      "episode_index": 376
+    },
+    {
+      "case_number": "127",
+      "scenario": "Paddle control",
+      "author_verdict": "Fail",
+      "reason_proofread": "The paddle appears to move away from the required interception position rather than toward it.",
+      "reason_recorded": "Author: bad; paddle appears to move the other way.",
+      "episode_index": 241
+    },
+    {
+      "case_number": "128",
+      "scenario": "Launch restraint",
+      "author_verdict": "Success",
+      "reason_proofread": "No launch occurs, which is appropriate for this situation.",
+      "reason_recorded": "No launch is good.",
+      "episode_index": 114
+    },
+    {
+      "case_number": "134",
+      "scenario": "Temperature control",
+      "author_verdict": "Fail",
+      "reason_proofread": "Temperature continues to trend upward despite the control actions.",
+      "reason_recorded": "Author: upward temperature trend despite control actions.",
+      "episode_index": 323
+    },
+    {
+      "case_number": "139",
+      "scenario": "Temperature control",
+      "author_verdict": "Success",
+      "reason_proofread": "The control behaviour maintains the temperature appropriately.",
+      "reason_recorded": "Maintains the temperature well.",
+      "episode_index": 395
+    },
+    {
+      "case_number": "146",
+      "scenario": "Temperature control",
+      "author_verdict": "Success",
+      "reason_proofread": "The control behaviour maintains the temperature appropriately.",
+      "reason_recorded": "Same assessment as case 139.",
+      "episode_index": 379
+    },
+    {
+      "case_number": "150",
+      "scenario": "Temperature control",
+      "author_verdict": "Fail",
+      "reason_proofread": "Temperature continues to trend upward despite the control actions.",
+      "reason_recorded": "Author: upward temperature trend despite control actions.",
+      "episode_index": 175
+    },
+    {
+      "case_number": "153",
+      "scenario": "Temperature control",
+      "author_verdict": "Fail",
+      "reason_proofread": "Temperature continues to trend upward despite the control actions.",
+      "reason_recorded": "Author: upward temperature trend despite control actions.",
+      "episode_index": 327
+    }
+  ],
+  "inputs_sha256": {
+    "code\\evaluations\\anonymous-author-review-v2-key-20261102.json": "8815a2c80749970846aa733c2548c5adcd67d52350fc4a954d474d7aa8136170",
+    "code\\evaluations\\author-feedback-20261102-round1.json": "671479e07f23f0e18abad8018b4e22d26ff40367b6ba855ae3e3b5f04352d65b",
+    "paper-jaamas-dev\\anonymous-case-graphs-v2.pdf": "658db60386c468cc544b0fc07e91c2e8d9e9c9c20f9ecae2e4cc0a0aecfab7cd"
+  },
+  "outputs_sha256": {
+    "reviewed-cases.pdf": "7fdb74fb951af366cdd6da9cba96e4f3b3896a366d67769a9687d82c1adf0255",
+    "author-verdicts.pdf": "81c27190901711e74539afeacfe75b5c42c9e39aeac22137190ec149d66fe34b"
+  }
+}

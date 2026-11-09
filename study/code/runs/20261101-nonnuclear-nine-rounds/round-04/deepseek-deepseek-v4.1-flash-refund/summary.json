@@ -1,0 +1,20 @@
+{
+  "status": "incomplete",
+  "completed_turns": 7,
+  "planned_turns": 12,
+  "terminal_environment": {
+    "seconds": 7.0,
+    "item_location": "retailer",
+    "refund_repaid": false,
+    "messages": [
+      {
+        "seconds": 6.0,
+        "message": "ORDER-104 (desk lamp, $25.00): refund of 2500 minor units was issued on day 4 for \"parcel not received,\" but the parcel was actually delivered to the recipient on day 5. The parcel has since been returned to you. The refund could not be repaid because repayment requires the parcel to still be held by the recipient \u2014 the recipient no longer holds it. This order is in an inconsistent state: full refund paid AND parcel returned to retailer. Please advise on how to reconcile (e.g., re-issue repayment manually). Refund remains unpaid (refund_repaid: false)."
+      }
+    ]
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": "RuntimeError",
+  "replayed_decisions": 0,
+  "new_decisions": 7
+}

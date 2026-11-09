@@ -1,0 +1,8 @@
+include README.md RESULTS.md LICENSE
+recursive-include experiments *.json *.jsonl
+recursive-include results *.csv *.pdf *.html *.png
+recursive-include tests *.py
+recursive-include evaluations *.json *.md
+recursive-include scripts *.py
+recursive-include study *.json *.jsonl *.pdf *.py *.md
+include key/README.md

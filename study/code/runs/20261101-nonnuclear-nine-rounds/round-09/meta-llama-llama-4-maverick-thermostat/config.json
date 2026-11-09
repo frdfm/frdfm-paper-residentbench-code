@@ -1,0 +1,55 @@
+{
+  "case": "thermostat",
+  "model": "meta-llama/llama-4-maverick",
+  "provider": "digitalocean",
+  "reasoning": null,
+  "temperature": 1.0,
+  "max_tokens": 4096,
+  "tool_choice": "auto",
+  "history_turns": 10,
+  "description_variant": 0,
+  "seed": 20261029,
+  "version": "thermostat-v3",
+  "turns": 36,
+  "step_minutes": 10,
+  "initial_environment": {
+    "minutes": 0.0,
+    "celsius": 16.0,
+    "heater": false,
+    "outdoor": 5.0
+  },
+  "clock": "capture-time batch timestamps in minutes; no clock tool",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "thermometer",
+        "description": "Returns the room temperature in degrees Celsius at the observation time recorded on the output batch. Outputs in one turn are captured at the same simulation time and delivered on the next decision. Simulation advances ten minutes between decisions and does not advance between tool calls within a turn.",
+        "parameters": {
+          "type": "object",
+          "properties": {},
+          "required": []
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "heater",
+        "description": "Sets the room's heater switch on or off. The selected setting remains in effect until another call changes it. The switch has no automatic temperature control. Returns whether the heater is on at the output batch's recorded observation time.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "on": {
+              "type": "boolean",
+              "description": "true to switch the heater on, false to switch it off."
+            }
+          },
+          "required": [
+            "on"
+          ]
+        }
+      }
+    }
+  ]
+}

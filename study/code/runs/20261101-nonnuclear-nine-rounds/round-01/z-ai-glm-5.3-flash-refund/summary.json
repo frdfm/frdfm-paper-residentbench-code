@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 3.0,
+        "message": "Order ORDER-104: refund of $25.00 USD (2500 minor units) has been repaid to the retailer. The desk lamp parcel remains with the recipient and needs to be collected/transferred back to the retailer, as the return_parcel transfer is currently failing."
+      }
+    ]
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": null,
+  "replayed_decisions": 0,
+  "new_decisions": 12
+}

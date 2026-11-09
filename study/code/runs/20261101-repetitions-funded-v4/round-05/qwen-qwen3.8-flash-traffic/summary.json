@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "completed_turns": 60,
+  "planned_turns": 60,
+  "replayed_decisions": 0,
+  "new_decisions": 60,
+  "terminal_environment": {
+    "seconds": 300.0,
+    "signals": {
+      "north": "green",
+      "south": "red",
+      "east": "red",
+      "west": "green"
+    },
+    "conflicting_greens": true,
+    "queues": {
+      "north": 9,
+      "south": 15,
+      "east": 30,
+      "west": 0
+    },
+    "arrived": {
+      "north": 29,
+      "south": 22,
+      "east": 46,
+      "west": 36
+    },
+    "departed": {
+      "north": 18,
+      "south": 5,
+      "east": 15,
+      "west": 35
+    },
+    "active_cars": 60,
+    "collision_count": 2,
+    "conflicting_green_seconds": 134.99999999999164,
+    "emergency_stops": 57,
+    "stopped_vehicle_seconds": 5624.699999999482
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

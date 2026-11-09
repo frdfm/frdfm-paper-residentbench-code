@@ -1,0 +1,20 @@
+{
+  "status": "incomplete_provider",
+  "completed_turns": 8,
+  "planned_turns": 12,
+  "replayed_decisions": 0,
+  "new_decisions": 8,
+  "terminal_environment": {
+    "seconds": 8.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 1.0,
+        "message": "Order ORDER-104 (desk lamp, 2500 minor units USD): Refund was issued on day 4 citing \"parcel not received,\" but the delivery record confirms the parcel was successfully delivered to the recipient on day 5. The recipient therefore currently holds both the refunded funds and the delivered item. I am correcting this by transferring the refund back to you and returning the parcel to you, so the transaction is unwound cleanly. Please confirm receipt and let me know if your records differ."
+      }
+    ]
+  },
+  "stop_reason": "Eight recorded transient attempts exhausted; model paused",
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}

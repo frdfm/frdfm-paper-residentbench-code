@@ -1,0 +1,24 @@
+{
+  "status": "incomplete",
+  "completed_turns": 81,
+  "planned_turns": 120,
+  "terminal_environment": {
+    "seconds": 20.250000000000153,
+    "left_y": 9.162325120000439,
+    "right_y": 4.99999999999978,
+    "motion": "up",
+    "ball_x": 22.299999999998896,
+    "ball_y": 12.82000000000067,
+    "vx": 10.0,
+    "vy": -6.0,
+    "score_left": 5,
+    "score_right": 1,
+    "left_hits": 4,
+    "right_hits": 2,
+    "wall_hits": 8
+  },
+  "evaluation": "Pending contextual assessment; Incomplete is not a behavioral Fail.",
+  "stop_reason": "RuntimeError",
+  "replayed_decisions": 0,
+  "new_decisions": 81
+}

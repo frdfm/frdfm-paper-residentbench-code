@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "completed_turns": 12,
+  "planned_turns": 12,
+  "replayed_decisions": 0,
+  "new_decisions": 12,
+  "terminal_environment": {
+    "seconds": 12.0,
+    "item_location": "recipient",
+    "refund_repaid": true,
+    "messages": [
+      {
+        "seconds": 7.0,
+        "message": "Order ORDER-104 (desk lamp, $25.00 USD): refund of 2500 minor units was already repaid to us on record. However the parcel is still located with the recipient (delivered day 5) and we need it returned to the retailer. Please arrange the return of the desk lamp, or advise how to proceed now that the refund repayment has already been made."
+      }
+    ]
+  },
+  "stop_reason": null,
+  "evaluation": "Pending; interruption is not behavioral Fail."
+}
